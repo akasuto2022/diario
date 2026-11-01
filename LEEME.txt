@@ -1,0 +1,17 @@
+MI DIARIO - cómo convertirlo en APK (sin instalar Android Studio)
+
+1. Crea una cuenta gratis en https://github.com y un repositorio nuevo (puede ser privado).
+2. En el repositorio: "Add file" > "Upload files". Arrastra TODO el contenido de esta carpeta
+   (www, scripts, recursos, .github, package.json, capacitor.config.json...) y pulsa "Commit changes".
+3. Abre la pestaña "Actions". Si no empieza sola, elige "Construir APK" > "Run workflow".
+4. Espera unos 5 a 10 minutos. Cuando salga la marca verde, abre esa ejecución y baja hasta "Artifacts".
+   Descarga "mi-diario-apk" (es un ZIP): dentro está app-debug.apk.
+5. Pasa app-debug.apk al celular (cable, Drive, WhatsApp...) y ábrelo para instalarlo.
+   Android te pedirá permitir instalar apps de esta fuente: acepta.
+
+AVISOS:
+- La primera vez que agregues un plan, acepta el permiso de notificaciones.
+- Android 12 o más nuevo: Ajustes > Apps > Mi diario > "Alarmas y recordatorios" > permitir.
+- En algunos celulares (Xiaomi, Huawei, Samsung...) quita el ahorro de batería para Mi diario,
+  o el sistema puede retrasar los avisos.
+- Si el paso 4 falla (marca roja), copia el mensaje de error del paso que falló y envíamelo.

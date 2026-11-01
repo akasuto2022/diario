@@ -1,0 +1,9 @@
+{
+  "appId": "com.midiario.app",
+  "appName": "Mi diario",
+  "webDir": "www",
+  "android": { "backgroundColor": "#ffd1e3" },
+  "plugins": {
+    "LocalNotifications": { "smallIcon": "ic_stat_icon", "iconColor": "#FF6FA5" }
+  }
+}
